@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vinext-route-proxy-examples",
+  "compatibility_date": "2026-02-24",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "main": "vinext/server/app-router-entry",
+  "assets": {
+    "not_found_handling": "none",
+    "binding": "ASSETS",
+    "directory": "./dist/client"
+  },
+  "images": {
+    "binding": "IMAGES"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "VINEXT_CACHE",
+      "id": "f19e3eca4f0d4247aa09a0682d17660c"
+    }
+  ]
+}

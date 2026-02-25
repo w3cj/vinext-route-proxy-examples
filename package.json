@@ -1,0 +1,20 @@
+{
+  "name": "vinext-route-proxy-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinext dev"
+  },
+  "dependencies": {
+    "@vitejs/plugin-rsc": "^0.5.19",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-server-dom-webpack": "^19.2.4",
+    "vinext": "link:../../Library/pnpm/global/5/node_modules/vinext",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.25.5",
+    "wrangler": "^4.68.1"
+  }
+}
