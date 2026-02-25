@@ -5,6 +5,8 @@
 
 This app demonstrates vinext route proxies — `proxy.ts` files that intercept requests at each directory level, cascading from root to leaf.
 
+View a live demo here: https://vinext-route-proxy-examples.cj-syntax.workers.dev/
+
 ## Route-Level Proxies
 
 | Route | Description | Code |
